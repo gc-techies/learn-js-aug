@@ -28,5 +28,4 @@ let e = 5;
 console.log('decrement after', e--);
 console.log('after decrement', e);
 
-
 let d = 8;
