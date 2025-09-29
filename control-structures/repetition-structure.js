@@ -37,3 +37,31 @@ for(let num = 1; num <= 5; num++){
     }
     console.log(stars);
 }
+
+/*  WHILE LOOP
+    SYNTAX
+    while(loop_condition){
+        // loop body
+        // find a way to negate the loop condition
+    }
+*/
+
+let counter = 100;
+while(counter > 1){
+    console.log(counter, 'in while loop');
+    counter--;
+}
+
+/*  do/while
+    SYNTAX
+    do{
+        // code block
+    }while(loop_condition)
+*/
+
+let m = 5;
+do{
+    console.log(m, 'in do/while loop');
+    m++;
+}while(m < 1);
+console.log(m, 'new value of m');
