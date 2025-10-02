@@ -73,3 +73,10 @@ console.log(yamal);
 let temp = {};
 // will be translated
 let temP = new Object();
+
+// let n = 1;
+let n = new Number(1);
+// let name = 'Bora'
+let name = new String('Bora');
+// let isAlive = true;
+let isAlive = new Boolean(true);
