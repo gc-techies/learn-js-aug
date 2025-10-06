@@ -26,8 +26,8 @@ function createPlayer() {
 
 let messi = createPlayer();
 let ronaldo = createPlayer();
-console.log(messi);
-console.log(ronaldo);
+// console.log(messi);
+// console.log(ronaldo);
 
 // factory function
 function createPlayerWithParam(name, age, height){
@@ -46,12 +46,12 @@ let neymar = createPlayerWithParam('Neymar', 33, 5.8);
 delete neymar.height;
 let salah = createPlayerWithParam('Mo Salah', 34, 5.9);
 
-console.log(haaland);
-console.log(neymar);
-console.log(salah);
+// console.log(haaland);
+// console.log(neymar);
+// console.log(salah);
 
 // Constructor function
-function Player(name, age, height){
+function Player(name, age, height, temp){
     this.name = name;
     this.age = age;
     this.height = height;
@@ -64,7 +64,7 @@ let osimhen = new Player('Victor Osimhen', 27, 6.2);
     1. Create an empty object
     2. Points 'this' keyword to the empty object which will be used to add properties to the object
     3. Return the object */
-console.log(yamal);
+// console.log(yamal);
 
 /*  CONSTRUCTOR PROPERTY    
     the constructor property reveals the function that was used in 
@@ -80,3 +80,7 @@ let n = new Number(1);
 let name = new String('Bora');
 // let isAlive = true;
 let isAlive = new Boolean(true);
+
+for (const ib in identity) {
+    console.log(ib, identity[ib]);
+}
