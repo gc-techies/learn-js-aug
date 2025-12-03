@@ -29,3 +29,5 @@ let anotherClone = {...player, aliya: 10};
 
 let a = 5;
 let b = 5;
+
+let str = " Adubi birahim ";
