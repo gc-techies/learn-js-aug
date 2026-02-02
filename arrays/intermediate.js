@@ -24,11 +24,20 @@ const refArr = [
 const search = refArr.includes({id: 2, name: 'Yusuf'});
 console.log(search);
 const temp = refArr.find(function (param) {
-    if(param.id === 21){
+    if(param.id === 2 ){
+        return true;
+    }else {
+        return false;
+    }
+});
+const idx = refArr.findIndex( (param, idx) => {
+    if(param.id === 2 ){
         return true;
     }else {
         return false;
     }
 });
 
-console.log(temp);
+
+console.log(temp, 'temp');
+console.log(idx, 'idx');
