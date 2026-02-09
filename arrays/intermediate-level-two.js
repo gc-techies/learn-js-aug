@@ -14,20 +14,20 @@ const removedLast = primArr.pop();
 
 // from any position
 let removedArr = primArr.splice(3, 3);
-console.log(removedArr);
+// console.log(removedArr);
 
 // solution 1
 removedArr = []
-console.log(removedArr, primArr);
+// console.log(removedArr, primArr);
 
 // solution 2
 primArr.length = 0;
-console.log(primArr);
+// console.log(primArr);
 
 // solution
-console.log(refArr);
+// console.log(refArr);
 refArr.splice(0);
-console.log(refArr);
+// console.log(refArr);
 
 // combining arrays
 const one = [1,2,3];
@@ -35,7 +35,7 @@ const two = [4,5,6];
 const three = [7,8,8];
 
 const combOne = one.concat(two, three);
-console.log(one, two, three, combOne);
+// console.log(one, two, three, combOne);
 
 // slicing an array
 const sliced = combOne.slice(2, 5);
@@ -43,10 +43,10 @@ const sliced = combOne.slice(2, 5);
 /*  when we exclude both the start and end index,
     we get a copy of the original array*/
 const duplicate = combOne.slice();
-console.log(duplicate, combOne);
+// console.log(duplicate, combOne);
 
 const spread = [...one, ...two, 23, ...three];
-console.log(spread);
+// console.log(spread);
 
 // iterating an array
 for (let index = 0; index < duplicate.length; index++) {
@@ -55,9 +55,20 @@ for (let index = 0; index < duplicate.length; index++) {
 }
 
 duplicate.forEach(function (val) {
-    console.log(val);
+    // console.log(val);
 });
 
 duplicate.forEach(function (val, idx) {
-    console.log(val, idx);
+    // console.log(val, idx);
 });
+
+const joined = one.join();
+console.log(joined);
+
+// URL SLUG
+const strSearch = "js code to find prime numbers";
+const splitArr = strSearch.split(' ');
+console.log(splitArr);
+const joinedSearchString = splitArr.join('+');
+console.log(joinedSearchString);
+
