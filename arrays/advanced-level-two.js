@@ -57,6 +57,6 @@ const refactored = refArr.reduce((preVal, curVal) => {
         return preVal + curVal.score
     }
     return preVal;
-}, 0)
+}, 0);
 
 console.log('primeArr sum', sum, reduced, aboveAvgReduced, refactored);
